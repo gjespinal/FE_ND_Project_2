@@ -189,3 +189,15 @@ $("#projects").append(HTMLprojectStart);
 $("#mapDiv").append(googleMap);
 
 
+/* Begin of footer Section */
+var	formattedMobile = HTMLmobile.replace("%data%", bio.contacts.mobile);
+	$("#footerContacts").prepend(formattedMobile);
+var	formattedEmail = HTMLemail.replace("%data%", bio.contacts.email);
+	$("#footerContacts").append(formattedEmail);
+var	formattedGithub = HTMLgithub.replace("%data%", bio.contacts.github);
+	$("#footerContacts").append(formattedGithub);
+var	formattedTwitter = HTMLtwitter.replace("%data%", bio.contacts.twitter);
+	$("#footerContacts").append(formattedTwitter);
+var	formattedLocation = HTMLlocation.replace("%data%", bio.contacts.location);
+	$("#tfooterContacts").append(formattedLocation);
+
