@@ -1,7 +1,7 @@
 /*Open the drawer when the menu ison is clicked.*/
 
 var menu = document.querySelector('#menu');
-var main = document.querySelector('main');
+var main = document.querySelector('#main');
 var drawer = document.querySelector('.nav');
 
 menu.addEventListener('click', function(e) {
